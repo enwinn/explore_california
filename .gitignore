@@ -1,5 +1,6 @@
 # Sample ignore setting
 tempfile.txt
+tempfile2.txt
 
 # macOS artifact
 .DS_Store
