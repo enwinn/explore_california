@@ -1,0 +1,23 @@
+# Sample ignore setting
+tempfile.txt
+
+# macOS artifact
+.DS_Store
+
+# Compressed file sets
+*.zip
+*.gz
+
+# all *.log and *.log.1, *.log.2, etc files in the log directory
+log/*.log
+log/*.log.[0-9]
+
+# all files in the photoshop and videos subdirectories of assets
+assets/photoshop/
+assets/videos/
+
+# But don't ignore any tour_*.mp4 files in the videos subdirectory
+!assets/videos/tour_*.mp4
+
+# Question: Would log/archive/access.log be ignored?
+# Answer: No because we don't have an ignore set for log/
