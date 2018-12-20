@@ -1,0 +1,1 @@
+Another tempfile to illustrate changing branches where the working directory is dirty, but not conflcited. E.g. adding an ignored file like this one.
